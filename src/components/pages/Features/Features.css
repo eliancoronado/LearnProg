@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&family=Rowdies:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+.features{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.ftrs-page{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    padding-left: 2rem;
+}
+
+.ftrs-page-left{
+    width: 50%;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.ftrs-page-left .box-next-course{
+    width: 200px;
+    height: 5vh;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: hsl(128, 50%, 43%);
+    font-size: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Rowdies", sans-serif;
+    color: #323232;
+}
+
+.ftrs-page-left h1{
+    font-family: "Rowdies", sans-serif;
+    color: #323232;
+    font-size: 7vh;
+    margin-top: 2vh;
+    font-weight: 500;
+}
+
+.ftrs-page-left h4{
+    color: hsl(0, 0%, 30%);
+    font-size: 2.5vh;
+    margin-top: 2vh;
+    font-weight: 400;
+    font-family: "Rowdies", sans-serif;
+}
+
+.ftrs-page-left h3{
+    color: hsl(0, 0%, 40%);
+    font-size: 2.5vh;
+    margin-top: 3vh;
+    font-weight: 400;
+    font-family: "Rowdies", sans-serif;
+    max-width: 500px;
+}
+
+.ftrs-page-left a{
+    font-size: 3vh;
+    margin-top: 3vh;
+    font-weight: 200;
+    font-family: "Rowdies", sans-serif;
+    color: hsl(199, 100%, 29%);
+    margin-bottom: 3vh;
+}
+
+.ftrs-page-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.ftrs-page-right img{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 900px) {
+    .ftrs-page{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding: 0.3rem 1rem;
+        padding-left: 2rem;
+    }
+
+    
+    .ftrs-page-left{
+        width: 100%;
+        padding: 0.5rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+.ftrs-page-left h1{
+    font-family: "Rowdies", sans-serif;
+    color: #323232;
+    font-size: 5vh;
+    margin-top: 1.5vh;
+    font-weight: 500;
+}
+
+.ftrs-page-left h4{
+    color: hsl(0, 0%, 30%);
+    font-size: 2.2vh;
+    margin-top: 1.5vh;
+    font-weight: 400;
+    font-family: "Rowdies", sans-serif;
+}
+
+.ftrs-page-left h3{
+    color: hsl(0, 0%, 40%);
+    font-size: 2.2vh;
+    margin-top: 1.5vh;
+    font-weight: 400;
+    font-family: "Rowdies", sans-serif;
+    max-width: 500px;
+    text-align: center;
+}
+
+.ftrs-page-left a{
+    font-size: 3vh;
+    margin-top: 1.5vh;
+    font-weight: 200;
+    font-family: "Rowdies", sans-serif;
+    color: hsl(199, 100%, 29%);
+    margin-bottom: 2vh;
+}
+
+    .ftrs-page-right{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ftrs-page-right img{
+        height: 100%;
+        width: auto;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ftrs-page{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding: 0.3rem 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    
+    .ftrs-page-left{
+        width: 100%;
+        height: 60%;
+        padding: 0.2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        
+    .ftrs-page-left h1{
+        font-family: "Rowdies", sans-serif;
+        color: #323232;
+        font-size: 3vh;
+        margin-top: 1vh;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .ftrs-page-left h4{
+        color: hsl(0, 0%, 30%);
+        font-size: 2vh;
+        margin-top: 1vh;
+        font-weight: 400;
+        font-family: "Rowdies", sans-serif;
+    }
+
+    .ftrs-page-left h3{
+        color: hsl(0, 0%, 40%);
+        font-size: 2vh;
+        margin-top: 1vh;
+        font-weight: 400;
+        font-family: "Rowdies", sans-serif;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .ftrs-page-left a{
+        font-size: 2vh;
+        margin-top: 1.5vh;
+        font-weight: 200;
+        font-family: "Rowdies", sans-serif;
+        color: hsl(199, 100%, 29%);
+        margin-bottom: 2vh;
+    }
+
+    .ftrs-page-right{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ftrs-page-right img{
+        height: auto;
+        width: auto;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+font-family: "Exo 2", sans-serif;
+font-family: "Raleway", sans-serif;
+*/
+
+.C1-wr{
+    width: 100%;
+    height: 90vh;
+    overflow: auto;
+    max-height: 90vh;
+}
+
+.Tema1-page{
+    background-color: #0d161c;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.Tema1-page-left{
+    padding: 3rem 2rem;
+    height: 100%;
+    width: 65%;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+
+.Tema1-page .Tema1-page-left ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2.5vh;
+    color: #40a5ec;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    list-style: none;
+    font-style: italic;
+}
+
+.Tema1-page .Tema1-page-left h2{
+    font-size: 5vh;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2vh;
+}
+
+.Tema1-page .Tema1-page-left ul li a{
+    color: #40a5ec;
+}
+
+.descr{
+    display: flex;
+    align-items: center;
+    padding: 0.7rem 0;
+    font-size: 3vh;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0.5vh;
+    letter-spacing: 1px;
+}
+
+.Tema1-page-right{
+    width: 40%;
+    height: 100%;
+    padding: 3rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temario-right{
+    width: 100%;
+    height: 90%;
+    background-color: #212e36;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.temario-right-header{
+    width: 100%;
+    height: 10%;
+    color: #35a9fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px solid #35a9fd;
+}
+
+
+.temario-right-body{
+    width: 100%;
+    height: 90%;
+    background-color: #1b2831;
+}
+
+.temario-right-body .trblist{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    max-height: 100%;
+    overflow: auto;
+}
+.temario-right-body .trblist .trbitem{
+    width: 100%;
+    font-size: 2.5vh;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem 0;
+    color: white;
+    padding-left: 1rem;
+    transition: all .4s ease-out;
+}
+.temario-right-body .trblist .trbitem:hover{
+    width: 100%;
+    font-size: 2.5vh;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem 0;
+    color: white;
+    padding-left: 1rem;
+    background-color: rgba(250, 250, 250, 0.5);
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all .4s ease-in;
+}
+
+
+
+.clase-tema1{
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.clase-tema1 h5{
+    font-size: 3vh;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-top: 3vh;
+}
+
+.clase-tema1 h3{
+    font-size: 2.3vh;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-top: 2.5vh;
+}
+
+.clase-tema1 h4{
+    font-size: 2.2vh;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-top: 2.5vh;
+}
+
+.clase-tema1 h6{
+    font-size: 3.2vh;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+
+@media screen and (max-width: 745px) {
+    
+.Tema1-page{
+    background-color: #0d161c;
+    width: 100%;
+    height: 100%;
+    display: block;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+.Tema1-page-left{
+    padding: 3rem 2rem;
+    height: 100%;
+    width: 100%;
+}
+
+
+.Tema1-page-right{
+    width: 100%;
+    height: 90vh;
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.temario-right{
+    width: 100%;
+    height: 100%;
+    background-color: #212e36;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+}
+
+
+@media screen and (max-width: 500px){
+    .Tema1-page .Tema1-page-left ul{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 2vh;
+        color: #40a5ec;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+        list-style: none;
+        font-style: italic;
+    }
+    .Tema1-page .Tema1-page-left h2{
+        font-size: 4vh;
+        color: white;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 2vh;
+        text-align: justify;
+    }
+    .clase-tema1 h6{
+        font-size: 3vh;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        color: white;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+        
+    }
+    .clase-tema1 h3{
+        font-size: 2.3vh;
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
+        color: white;
+        margin-top: 2.5vh;
+        text-align: justify;
+    }
+    .Tema1-page-right{
+        width: 100%;
+        height: 90vh;
+        padding: 1rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 90vh;
+        overflow: auto;
+    }
+    .temario-right{
+        width: 100%;
+        height: 80vh;
+        background-color: #212e36;
+        border-radius: 10px;
+    }
+}

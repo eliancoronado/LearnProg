@@ -1,0 +1,189 @@
+.Chome-page{
+    background-color: #0d161c;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.Chome-page-left{
+    height: 100%;
+    width: 50%;
+    padding: 3rem 2rem;
+}
+
+.Chome-page .Chome-page-left ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2.5vh;
+    color: #40a5ec;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    list-style: none;
+    font-style: italic;
+}
+
+.Chome-page .Chome-page-left ul li a{
+    color: #40a5ec;
+}
+
+.Chome-page .Chome-page-left h2{
+    font-size: 5vh;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2vh;
+    text-align: justify;
+}
+
+.Chome-page .Chome-page-left p{
+    font-size: 2.8vh;
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2vh;
+    text-align: justify;
+}
+
+.Chome-page .Chome-page-left .qaprenderas h4{
+    font-size: 2.5vh;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2vh;
+    text-align: justify;
+}
+
+.Chome-page .Chome-page-left .qaprenderas ul{
+    list-style: circle;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 2vh;
+    margin-left: 4vh;
+    color: rgb(216, 216, 216);
+    font-size: 2.3vh;
+}
+
+.Chome-page .Chome-page-left h3{
+    font-size: 2.3vh;
+    color: rgb(216, 216, 216);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5vh;
+}
+
+.Chome-page .Chome-page-left button{
+    padding: 0.7rem 0.7rem;
+    color: white;
+    font-size: 2.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #35a9fd;
+    border: none;
+    border-radius: 8px;
+    margin-top: 3vh;
+    transition: all .4s ease-out;
+}
+
+.Chome-page .Chome-page-left button:hover{
+    padding: 0.7rem 0.7rem;
+    color: white;
+    font-size: 2.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #35a9fd;
+    border: none;
+    border-radius: 8px;
+    margin-top: 3vh;
+    transform: scale(1.1);
+    transition: all .4s ease-in;
+    cursor: pointer;
+}
+
+
+
+.Chome-page-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.Chome-page-right img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .Chome-page-right{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        display: none;
+    }
+
+    .Chome-page-left{
+        height: 100%;
+        width: 100%;
+        padding: 1.5rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Chome-page .Chome-page-left h2{
+        font-size: 3vh;
+        color: white;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 2vh;
+        text-align: justify;
+    }
+    .Chome-page .Chome-page-left p{
+        font-size: 2.2vh;
+        color: white;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 2vh;
+        text-align: center;
+    }
+
+    .qaprenderas{
+        margin-top: 3vh;
+    }
+    .Chome-page .Chome-page-left h3{
+        font-size: 2.2vh;
+        color: rgb(216, 216, 216);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .Chome-page .Chome-page-left button{
+        padding: 0.7rem 0.7rem;
+        color: white;
+        font-size: 2.5vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #35a9fd;
+        border: none;
+        border-radius: 8px;
+        margin-top: 3vh;
+        transition: all .4s ease-out;
+    }
+    .Chome-page .Chome-page-left ul{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 2vh;
+        color: #40a5ec;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+        list-style: none;
+        font-style: italic;
+    }
+}

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&family=Rowdies:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+.home{
+    width: 100%;
+    height: 90vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.home-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    z-index: 2;
+}
+
+.home-sec h1{
+    font-size: 6vh;
+    font-weight: 600;
+    color: white;
+    font-family: "Rowdies", sans-serif;
+    z-index: 2;
+    transition: all .4s ease-in;
+}
+
+.home-sec h2{
+    font-size: 6vh;
+    font-weight: 600;
+    color: #4BE5CA;
+    font-family: "Rowdies", sans-serif;
+    z-index: 2;
+    transition: all .4s ease-in;
+}
+
+.home-sec h3{
+    font-size: 3.3vh;
+    font-weight: 400;
+    color: white;
+    font-family: "Saira", sans-serif;
+    max-width: 600px;
+    z-index: 2;
+    transition: all .4s ease-in;
+}
+
+.btns-home-sec button{
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-size: 2.2vh;
+    background-color: transparent;
+    font-weight: 400;
+    color: white;
+    font-family: "Saira", sans-serif;
+    transition: all .4s ease-out;
+}
+
+.btns-home-sec button:hover{
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-size: 2.2vh;
+    background-color: transparent;
+    font-weight: 400;
+    color: white;
+    font-family: "Saira", sans-serif;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all .4s ease-in;
+    box-shadow: 0 0 8px rgba(256, 256, 256, 0.7);
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: #005FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 5%;
+    bottom: 30%;
+    z-index: 1;
+    filter: blur(70px);
+
+    animation-name: mover; /* Nombre de la animación */
+    animation-duration: 2s; /* Duración de la animación (2 segundos) */
+    animation-timing-function: ease; /* Función de temporización (puede ser ease, ease-in, ease-out, ease-in-out, linear, etc.) */
+    animation-delay: 1s; /* Retraso antes de que comience la animación */
+    animation-iteration-count: infinite; /* Número de repeticiones (puede ser un número o 'infinite' para repetir indefinidamente) */
+    animation-direction:alternate-reverse;
+}
+
+@keyframes mover {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-200px);
+    }
+}
+
+@keyframes moverd {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(200px);
+    }
+}
+
+.circle2{
+    width: 200px;
+    height: 200px;
+    background-color: #005FFF;
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    bottom: 50%;
+    z-index: 1;
+    filter: blur(70px);
+
+    animation-name: moverd; /* Nombre de la animación */
+    animation-duration: 2s; /* Duración de la animación (2 segundos) */
+    animation-timing-function: ease; /* Función de temporización (puede ser ease, ease-in, ease-out, ease-in-out, linear, etc.) */
+    animation-delay: 1s; /* Retraso antes de que comience la animación */
+    animation-iteration-count: infinite; /* Número de repeticiones (puede ser un número o 'infinite' para repetir indefinidamente) */
+    animation-direction: alternate;
+}
+
+@media screen and (max-width: 770px) {
+    
+    .home-sec h1{
+        font-size: 4.5vh;
+        font-weight: 600;
+        color: white;
+        font-family: "Rowdies", sans-serif;
+    }
+
+    .home-sec h2{
+        font-size: 5.4vh;
+        font-weight: 600;
+        color: #4BE5CA;
+        font-family: "Rowdies", sans-serif;
+    }
+
+    .home-sec h3{
+        font-size: 3vh;
+        font-weight: 400;
+        color: white;
+        font-family: "Saira", sans-serif;
+        max-width: 600px;
+    }
+    .home-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        padding: 0 0.8rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    
+    .home-sec h1{
+        font-size: 4vh;
+        font-weight: 600;
+        color: white;
+        font-family: "Rowdies", sans-serif;
+    }
+
+    .home-sec h2{
+        font-size: 5vh;
+        font-weight: 600;
+        color: #4BE5CA;
+        font-family: "Rowdies", sans-serif;
+    }
+
+    .home-sec h3{
+        font-size: 2.5vh;
+        font-weight: 400;
+        color: white;
+        font-family: "Saira", sans-serif;
+        max-width: 600px;
+    }
+    .home-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        padding: 0 0.8rem;
+    }
+}

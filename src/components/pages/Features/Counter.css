@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&family=Rowdies:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Counterdiv{
+    font-size: 3vh;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 500;
+    color: hsl(199, 100%, 29%);
+    text-align: center;
+}
+
