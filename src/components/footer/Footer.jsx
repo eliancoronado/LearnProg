@@ -10,7 +10,7 @@ function ContactForm() {
     return (
         <form onSubmit={handleSubmit} className='form'>
         <label htmlFor="email" className='h4'>
-          Email Address
+          Deja tu opinión
         </label>
         <input
           id="email"
@@ -67,11 +67,10 @@ function Footer() {
                 </div>
                 <div className="col1">
                     <h3>Links</h3>
-                    <h4>Home</h4>
-                    <h4>Cursos</h4>
-                    <h4>Acerca de </h4>
-                    <h4>Iniciar Sesión</h4>
-                    <h4>Registrarse</h4>
+                    <h4><a href="#home">Home</a></h4>
+                    <h4><a href="#features">Cursos</a></h4>
+                    <h4><a href="#blog ">Acerca de </a></h4>
+                    <h4><a href="#footer">Contacto</a></h4>
                 </div>
                 <div className="col2">
                     <ContactForm />

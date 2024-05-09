@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
+import { Link } from 'react-router-dom';
+
 
 function Home() { 
   
@@ -10,7 +12,7 @@ function Home() {
             <h2>LearnProg</h2>
             <h3>"En LearnProg, transformamos curiosidad en código y pasión en proyectos. Únete a nosotros para desatar tu creatividad y construir el futuro hoy."</h3>
             <div className="btns-home-sec">
-              <button type="button">Comienza a estudiar ya!</button>
+              <button type="button" ><Link to="/curso1">Comienza a estudiar ya!</Link></button>
             </div>
           </div>
 
